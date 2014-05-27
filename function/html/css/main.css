@@ -1,0 +1,28 @@
+#head {
+	width:100%;
+	height:100%;
+}
+#head img {
+	width:100%;
+}
+#content img {
+	width:30%;
+	height:30%;
+	//padding:9px;
+	//margin:auto;
+}
+//========================JamesKid===============================
+// 流式布局标签 @media   add by JamesKid 2014_3_6
+// @media (min-width:   )
+// if the width lager then 619px then use the @media css
+//===============================================================
+@media (max-width: 619px) {
+
+	#content img {
+		width:100%;
+		height:100%;
+		//padding:1%;
+		margin:auto;
+		padding-top:5px;
+	}
+}
