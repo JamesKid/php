@@ -1,0 +1,6 @@
+# 测试方法
+	# 将参数写入文件
+		$handle=fopen("code.txt","a");
+		$string=$value;
+		fwrite($handle,$string);
+		fclose($handle);
